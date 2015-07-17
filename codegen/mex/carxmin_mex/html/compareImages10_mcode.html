@@ -1,0 +1,13 @@
+<!-- saved from url=(0014)about:internet -->
+<pre class="code">
+<span class="srcline"><span class="lineno"><a href="4,1" id="srcline1"> 1</a></span><span class="line"><span class="keyword">function</span> [ <span class="var type1" id="S2T6U3">correlation</span> ] = compareImages( <span class="var type1" id="S3T4U6">image1</span>,<span class="var type1" id="S4T5U7">image2</span> )</span></span>
+<span class="srcline"><span class="lineno"><a href="4,2" id="srcline2"> 2</a></span><span class="line"><span class="comment">% Se compara la imagen 1 contra la imagen 2</span></span></span>
+<span class="srcline"><span class="lineno"><a href="4,3" id="srcline3"> 3</a></span><span class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="4,4" id="srcline4"> 4</a></span><span class="line">    coder.extrinsic(<span class="string">'imresize'</span>);</span></span>
+<span class="srcline"><span class="lineno"><a href="4,5" id="srcline5"> 5</a></span><span class="line">    coder.extrinsic(<span class="string">'corr2'</span>);</span></span>
+<span class="srcline"><span class="lineno"><a href="4,6" id="srcline6"> 6</a></span><span class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="4,7" id="srcline7"> 7</a></span><span class="line">    <span class="mxinfo" id="T6:U4"><span class="var type1" id="S3T6U22">image1</span> = <span class="mxinfo" id="T6:U6"><span class="extrinsicFcn" id="F11N11:B24">imresize</span>(<span class="var type1" id="S3T4U25">image1</span>,<span class="mxinfo" id="T25:U8">size(<span class="var type1" id="S4T5U28">image2</span>)</span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="4,8" id="srcline8"> 8</a></span><span class="line">    <span class="mxinfo" id="T6:U10"><span class="var type1" id="S2T6U31">correlation</span> = <span class="mxinfo" id="T6:U12"><span class="extrinsicFcn" id="F12N6:B33">corr2</span>(<span class="var type1" id="S3T6U34">image1</span>,<span class="var type1" id="S4T5U35">image2</span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="4,9" id="srcline9"> 9</a></span><span class="line"><span class="keyword">end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="4,10" id="srcline10">10</a></span><span class="line"></span></span>
+</pre>
